@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 03 Feb 2021 pada 12.16
+-- Waktu pembuatan: 03 Feb 2021 pada 13.17
 -- Versi server: 10.4.6-MariaDB
 -- Versi PHP: 7.3.8
 
@@ -64,13 +64,6 @@ CREATE TABLE `user` (
   `email` varchar(100) NOT NULL,
   `password` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Dumping data untuk tabel `user`
---
-
-INSERT INTO `user` (`user_id`, `username`, `email`, `password`) VALUES
-(2, 'elsaaaaa tes password', 'elsaa@gmail.com', '7c4a8d09ca3762af61e59520943dc26494f8941b');
 
 --
 -- Indexes for dumped tables
